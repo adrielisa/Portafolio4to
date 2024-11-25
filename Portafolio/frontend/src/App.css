@@ -1,0 +1,19 @@
+/* Estilo para el cursor personalizado */
+body {
+  cursor: none; /* Oculta el cursor estándar */
+  overflow: hidden; /* Asegura que el cursor no provoque scroll */
+}
+
+.custom-cursor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background-color: white; /* Color del cursor */
+  border-radius: 50%; /* Hace el div circular */
+  pointer-events: none; /* Permite clics en elementos debajo */
+  mix-blend-mode: difference; /* Contraste con el fondo */
+  z-index: 9999; /* Siempre encima de otros elementos */
+  transition: transform 0.1s ease; /* Suaviza los movimientos */
+}

@@ -1,0 +1,10 @@
+Component folder
+    ui: for reusable components like buttons or inputs
+    layout: for structure components like header or footer
+    forms: for forms components or specific fields
+
+Services: For interact with APIs or bussines logic. I can add subfolders bassed
+on the domain of each service, example_
+    services/i: for APIs logic 
+    services/auth: for authentication logic
+

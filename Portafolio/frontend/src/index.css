@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.w-7-10 {
+    width: 70%;
+}
+
+.w-3-10 {
+    width: 30%;
+}
